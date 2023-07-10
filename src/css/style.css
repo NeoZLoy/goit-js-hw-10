@@ -12,7 +12,7 @@ img {
 }
 .breed-select {
   display: block;
-  max-width: 450px;
+  max-width: 400px;
   margin: 50px auto;
 }
 
@@ -35,13 +35,13 @@ img {
   margin: 0 auto;
   font-size: 32px;
   font-weight: 700;
-  color: rgb(132, 0, 255);
+  color: #4A4A4A;
 }
 .sub-title {
   margin: 0 auto;
   font-size: 24px;
   font-weight: 500;
-  color: rgb(252, 0, 197);
+  color: #4A4A4A;
 }
 
 .descr {
