@@ -13,7 +13,7 @@ img {
 .breed-select {
   display: block;
   max-width: 400px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .breed-select::-webkit-scrollbar {
@@ -40,7 +40,7 @@ img {
 .sub-title {
   margin: 0 auto;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   color: #4A4A4A;
 }
 
