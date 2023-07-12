@@ -47,6 +47,7 @@ function onSelect(e) {
 }
 
 function updateSelect(markup) {
+    
     selectEl.innerHTML = markup;
     new SlimSelect({
       select: selectEl,
@@ -58,8 +59,9 @@ function updateSelect(markup) {
   }
 
 function updateInfo(markup) {
+  selectEl.classList.add('invisible');
     catInfoEl.innerHTML = markup;
-    catInfoEl.classList.remove('invisible');
+    
 }
 
 
