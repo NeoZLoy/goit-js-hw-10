@@ -64,6 +64,8 @@ function updateInfo(markup) {
 
 
 function startLoading(element) {
+  selectEl.classList.add('invisible');
+  catInfoEl.innerHTML = "";
     if (eventError) afterError();
     Notiflix.Loading.hourglass('Loading data, please wait...', {
         backgroundColor: 'rgba(0,0,0,0.6)',
@@ -72,11 +74,14 @@ function startLoading(element) {
 
 function endLoading() {
     Notiflix.Loading.remove();
+    selectEl.classList.remove('invisible')
 }
   
 function onError(error) {
     eventError = true;
     Notiflix.Notify.failure(error.message);
+    catInfoEl.innerHTML = "<h2> We are failed to load this cat :c</h2>";
+
 }
   
 function afterError() {
